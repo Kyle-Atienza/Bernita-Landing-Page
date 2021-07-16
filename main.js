@@ -4,6 +4,9 @@ var offer_name = document.querySelector("#offers-name>h1")
 var offers = document.querySelector("#offers-images").children
 
 for (let i = 0; i < offers.length; i++) {
+    offers[i].addEventListener("mouseout", function(){
+        offer_name.innerHTML = "Offers"
+    })
     offers[i].addEventListener("mouseover", function(){
         //console.log(isHover)
         //console.log(offers[i])
