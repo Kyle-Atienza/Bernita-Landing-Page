@@ -32,4 +32,16 @@ for (let i = 0; i < offers.length; i++) {
     
 }
 
+var mobile_nav = document.querySelector("#mobile-nav")
+
+function showNav(){
+    mobile_nav.classList.add("nav-show")
+}
+
+function closeNav(){
+    mobile_nav.classList.remove("nav-show")
+}
+
+
+
 
